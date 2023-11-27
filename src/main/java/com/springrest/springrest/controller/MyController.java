@@ -5,23 +5,17 @@ import com.springrest.springrest.services.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
-@Controller
+@RestController
 public class MyController {
 
     @Autowired
     private CourseService courseService;
 
-    // Home endpoint
-    @GetMapping({"/", "/home"})
-    public String home() {
-        return "index"; // Assuming your HTML file is named "index.html"
-    }
 
     // Get all courses
     @GetMapping("/courses")
