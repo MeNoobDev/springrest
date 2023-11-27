@@ -1,6 +1,6 @@
 # SpringREST - Spring Boot REST API Project
 
-This is a SpringBoot Rest API project that features CRUD (Create, Read, Update, Delete) operations on courses. The project uses a MySQL database hosted on Aiven. Below are the available endpoints:
+This is a SpringBoot Rest API project that features CRUD (Create, Read, Update, Delete) operations on courses. The project uses a MySQL database hosted on Aiven.
 To reach endpoints all, use an API client like Postman or cURL.
 
 ## Database
