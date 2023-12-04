@@ -12,7 +12,10 @@ The project utilizes a MySQL database hosted on Aiven for data storage. Ensure t
     - URL: `/home`
     - Method: `GET`
     - Description: Returns a welcome message for the SpringBoot Rest API project.
+    ![home](screenshots/home.png)
 
+
+<br>
 - **Get All Courses**:
     - URL: `/courses`
     - Method: `GET`
