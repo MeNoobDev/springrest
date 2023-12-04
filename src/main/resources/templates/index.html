@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpringBoot API Endpoints</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .endpoint {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>SpringBoot API Endpoints</h1>
+
+<div class="endpoint">
+    <h2>/home</h2>
+    <p>Welcome message</p>
+    <p>To reach this endpoint, visit: <a href="https://vedant-springrest.onrender.com/home" target="_blank">https://vedant-springrest.onrender.com/home</a></p>
+    <code>GET /home</code>
+</div>
+
+<div class="endpoint">
+    <h2>/courses</h2>
+    <p>Get all courses</p>
+    <p>To reach this endpoint, visit: <a href="https://vedant-springrest.onrender.com/courses" target="_blank">https://vedant-springrest.onrender.com/courses</a></p>
+    <code>GET /courses</code>
+</div>
+
+<div class="endpoint">
+    <h2>/courses/{courseId}</h2>
+    <p>Get a specific course by ID</p>
+    <p>Replace `{courseId}` with an actual course ID. Example: <a href="https://vedant-springrest.onrender.com/courses/1" target="_blank">https://vedant-springrest.onrender.com/courses/1</a></p>
+    <code>GET /courses/{courseId}</code>
+</div>
+
+<div class="endpoint">
+    <h2>/courses (POST)</h2>
+    <p>Add a new course</p>
+    <p>To reach this endpoint, use an API client like Postman or cURL with a POST request to: <a href="https://vedant-springrest.onrender.com/courses" target="_blank">https://vedant-springrest.onrender.com/courses</a></p>
+    <code>POST /courses</code>
+</div>
+
+<div class="endpoint">
+    <h2>/courses (PUT)</h2>
+    <p>Update a course</p>
+    <p>To reach this endpoint, use an API client like Postman or cURL with a PUT request to: <a href="https://vedant-springrest.onrender.com/courses" target="_blank">https://vedant-springrest.onrender.com/courses</a></p>
+    <code>PUT /courses</code>
+</div>
+
+<div class="endpoint">
+    <h2>/courses/{courseId} (DELETE)</h2>
+    <p>Delete a course by ID</p>
+    <p>Replace `{courseId}` with an actual course ID. Example: <a href="https://vedant-springrest.onrender.com/courses/1" target="_blank">https://vedant-springrest.onrender.com/courses/1</a></p>
+    <p>To reach this endpoint, use an API client like Postman or cURL with a DELETE request to: <a href="https://vedant-springrest.onrender.com/courses/1" target="_blank">https://vedant-springrest.onrender.com/courses/1</a></p>
+    <code>DELETE /courses/{courseId}</code>
+</div>
+
+</body>
+</html>
