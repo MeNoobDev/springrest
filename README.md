@@ -50,3 +50,34 @@ The project utilizes a MySQL database hosted on Aiven for data storage. Ensure t
   ![delete_courses](screenshots/delete_courses.png)
   <br>
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Integrated Development Environment (IDE) of your choice
+
+## Setup
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/MeNoobDev/springrest.git
+    ```
+
+2. Open the project in your preferred IDE.
+
+3. Configure the MySQL database connection in the `application.properties` file:
+
+    ```properties
+    spring.datasource.url=jdbc:mysql://<your-database-host>:<port>/<your-database-name>
+    spring.datasource.username=<your-username>
+    spring.datasource.password=<your-password>
+    ```
+
+## Run the Application
+
+Run the Spring Boot application from your IDE or use the following command:
+
+```bash
+./mvnw spring-boot:run
